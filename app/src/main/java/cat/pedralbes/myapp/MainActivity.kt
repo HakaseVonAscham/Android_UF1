@@ -13,7 +13,7 @@ abstract class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button = findViewById<Button>(R.id.button)
+        button = findViewById<Button>(R.id.loginButton)
     }
 
     fun sendMeesage(view: View) {
