@@ -8,15 +8,15 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="394dp"
-        android:layout_height="404dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="391dp"
+        android:layout_height="371dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152">
+        app:layout_constraintVertical_bias="0.088">
 
         <TextView
             android:layout_width="match_parent"
@@ -36,11 +36,11 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/textButton"
         android:layout_width="209dp"
         android:layout_height="69dp"
         android:backgroundTint="#4CAF50"
-        android:text="Login"
+        android:text="Press"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,50 +48,32 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.935" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="409dp"
-        android:layout_height="163dp"
+    <EditText
+        android:id="@+id/textInput"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Insert data"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799">
+        app:layout_constraintVertical_bias="0.792" />
 
-        <EditText
-            android:id="@+id/UserNameInput"
-            android:layout_width="373dp"
-            android:layout_height="53dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="8dp"
-            android:ems="10"
-            android:inputType="text"
-            android:minHeight="48dp"
-            android:text="Username"
-            android:textSize="25dp"
-            app:layout_constraintBottom_toTopOf="@+id/PasswordInput"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
-            android:id="@+id/PasswordInput"
-            android:hint="password"
-            android:layout_width="371dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="10dp"
-            android:ems="10"
-            android:inputType="textPassword"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/UserNameInput"
-            app:layout_constraintVertical_bias="1.0" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textViewer"
+        android:layout_width="280dp"
+        android:layout_height="72dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
