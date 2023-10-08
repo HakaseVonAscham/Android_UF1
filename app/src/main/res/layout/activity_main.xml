@@ -13,8 +13,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152">
 
         <TextView
             android:layout_width="match_parent"
@@ -29,8 +31,21 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="264dp"
-            app:srcCompat="@drawable/akashi"
-            android:contentDescription="Akashi sample pic" />
+            android:contentDescription="Akashi sample pic"
+            app:srcCompat="@drawable/akashi" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="203dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Press"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
