@@ -29,7 +29,8 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="264dp"
-            app:srcCompat="@drawable/akashi" />
+            app:srcCompat="@drawable/akashi"
+            android:contentDescription="Akashi sample pic" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
