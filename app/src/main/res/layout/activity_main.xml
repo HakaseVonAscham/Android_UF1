@@ -42,6 +42,7 @@
         android:backgroundTint="#4CAF50"
         android:text="Login"
         android:textSize="30sp"
+        android:onClick="sendMeesage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
