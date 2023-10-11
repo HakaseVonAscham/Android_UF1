@@ -3,8 +3,6 @@ package cat.pedralbes.myapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
-import android.view.View
 
 class MainActivity : AppCompatActivity() {
 
@@ -38,10 +36,4 @@ class MainActivity : AppCompatActivity() {
         Log.i(String(),"Destroied")
     }
 
-    fun saveData(view: View) {
-        val text = "Saved"
-        val duration = Toast.LENGTH_SHORT
-        val toast = Toast.makeText(this, text, duration)
-        toast.show()
-    }
 }

@@ -8,128 +8,53 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="Matriculació"
+        android:fontFamily="casual"
+        android:text="Akashi's hub"
         android:textAlignment="center"
-        android:textColor="#D5CBCB"
-        android:textSize="48sp"
+        android:textColor="#D5D0D0"
+        android:textSize="50sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
-
-    <Button
-        android:id="@+id/textButton"
-        android:layout_width="214dp"
-        android:layout_height="68dp"
-        android:backgroundTint="#4CAF50"
-        android:text="Press"
-        android:onClick="saveData"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.052" />
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="164dp"
-        android:layout_height="306dp"
-        android:orientation="vertical"
+        android:layout_width="391dp"
+        android:layout_height="117dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44">
+        app:layout_constraintVertical_bias="0.582">
 
-        <CheckBox
-            android:id="@+id/M10"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="M10"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <CheckBox
-            android:id="@+id/M07"
-            android:layout_width="match_parent"
+            android:layout_weight="0.25"
+            android:backgroundTint="#328f0d"
+            android:text="1" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="M07"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <CheckBox
-            android:id="@+id/M08"
-            android:layout_width="match_parent"
+            android:layout_weight="0.25"
+            android:backgroundTint="#b3a81b"
+            android:text="2" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="M08"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <CheckBox
-            android:id="@+id/M09"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="M09"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <CheckBox
-            android:id="@+id/M11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="M11"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <CheckBox
-            android:id="@+id/M06"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="M06"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
+            android:layout_weight="1"
+            android:backgroundTint="#a30827"
+            android:text="3" />
     </LinearLayout>
-
-    <RadioGroup
-        android:layout_width="236dp"
-        android:layout_height="108dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82">
-
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Torn Mati"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold"/>
-
-        <RadioButton
-            android:id="@+id/radioButton4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Torn Tarda"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold"/>
-    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
