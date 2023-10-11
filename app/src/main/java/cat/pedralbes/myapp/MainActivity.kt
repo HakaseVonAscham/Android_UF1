@@ -8,9 +8,9 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 
-abstract class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     private lateinit var button: Button
-    private lateinit var text: EditText
+    private lateinit var textData: EditText
     private lateinit var viewer: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,15 +18,15 @@ abstract class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button = findViewById<Button>(R.id.textButton)
-        text = findViewById(R.id.textInput)
+        textData = findViewById(R.id.textInput)
         viewer = findViewById(R.id.textViewer)
     }
 
-    fun sendMeesage(view: View) {
-        val text = "Button pressed!"
+    fun sendText(view: View) {
+        val text = "Text Updated!"
         val duration = Toast.LENGTH_SHORT
         val toast = Toast.makeText(this, text, duration)
         toast.show()
-        viewer.setText(text.toString())
+        viewer.setText(textData.text)
     }
 }
