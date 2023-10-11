@@ -28,6 +28,7 @@
         android:layout_height="68dp"
         android:backgroundTint="#4CAF50"
         android:text="Press"
+        android:onClick="saveData"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
