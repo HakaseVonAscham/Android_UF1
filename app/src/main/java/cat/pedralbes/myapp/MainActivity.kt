@@ -1,10 +1,12 @@
 package cat.pedralbes.myapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import android.view.View
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,6 +14,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.i(String(),"Created")
+
+        val buttonBlue: Button = findViewById(R.id.BlueButton)
+        buttonBlue.setOnClickListener(){
+            val i = Intent(this, SecondActivity::class.java);
+            i.putExtra("color","blue")
+            startActivity(i)
+        }
     }
     override fun onStart() {
         super.onStart()

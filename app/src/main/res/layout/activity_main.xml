@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="Matriculació"
+        android:text="Akashi's Hub"
         android:textAlignment="center"
         android:textColor="#D5CBCB"
         android:textSize="48sp"
@@ -20,116 +20,51 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.09" />
 
     <Button
-        android:id="@+id/textButton"
+        android:id="@+id/RedButton"
         android:layout_width="214dp"
         android:layout_height="68dp"
-        android:backgroundTint="#4CAF50"
-        android:text="Press"
+        android:backgroundTint="#ff0000"
         android:onClick="saveData"
+        android:text="Red"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="164dp"
-        android:layout_height="306dp"
-        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44">
+        app:layout_constraintVertical_bias="0.407" />
 
-        <CheckBox
-            android:id="@+id/M10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="M10"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <CheckBox
-            android:id="@+id/M07"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="M07"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <CheckBox
-            android:id="@+id/M08"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="M08"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <CheckBox
-            android:id="@+id/M09"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="M09"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <CheckBox
-            android:id="@+id/M11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="M11"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <CheckBox
-            android:id="@+id/M06"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="M06"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
-    <RadioGroup
-        android:layout_width="236dp"
-        android:layout_height="108dp"
+    <Button
+        android:id="@+id/GreenButton"
+        android:layout_width="214dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#00ff00"
+        android:onClick="saveData"
+        android:text="Green"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82">
+        app:layout_constraintVertical_bias="0.561" />
 
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Torn Mati"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold"/>
-
-        <RadioButton
-            android:id="@+id/radioButton4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Torn Tarda"
-            android:textColor="#F0EFECEC"
-            android:textSize="30sp"
-            android:textStyle="bold"/>
-    </RadioGroup>
+    <Button
+        android:id="@+id/BlueButton"
+        android:layout_width="214dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#0000ff"
+        android:onClick="saveData"
+        android:text="Blue"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
