@@ -24,136 +24,75 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.038" />
 
-    <Button
-        android:id="@+id/RegisterButton"
-        android:layout_width="224dp"
-        android:layout_height="69dp"
-        android:backgroundTint="#1B8CB8"
-        android:onClick="sendMeesage"
-        android:text="Register"
-        android:textSize="30sp"
+    <HorizontalScrollView
+        android:layout_width="306dp"
+        android:layout_height="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
-
-    <ScrollView
-        android:layout_width="360dp"
-        android:layout_height="300dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41000003">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <EditText
-                    android:id="@+id/Lastname"
-                    android:layout_width="152dp"
-                    android:layout_height="49dp"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="Last Name"
-                    android:textSize="25sp" />
-
-                <EditText
-                    android:id="@+id/Firstname"
-                    android:layout_width="152dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="First Name"
-                    android:textSize="25sp" />
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/Age"
-                android:layout_width="match_parent"
-                android:layout_height="58dp"
-                android:ems="10"
-                android:inputType="text"
-                android:text="Age"
-                android:textSize="25sp" />
-
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Select Genre"
-                    android:textColor="#1C1B1F"
-                    android:textColorHint="#000000"
-                    android:textSize="24sp"
-                    android:textStyle="bold" />
-
-                <RadioButton
-                    android:id="@+id/Male"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Male"
-                    android:textAlignment="textStart" />
-
-                <RadioButton
-                    android:id="@+id/Female"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Female" />
-
-                <EditText
-                    android:id="@+id/EmailAddress"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="Email"
-                    android:inputType="textEmailAddress"
-                    android:textSize="24sp" />
-
-                <EditText
-                    android:id="@+id/Phone"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="Phone"
-                    android:inputType="phone"
-                    android:textSize="24sp" />
-            </RadioGroup>
-
-            <EditText
-                android:id="@+id/Username"
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="text"
-                android:text="Username"
-                android:textSize="25sp" />
+                android:layout_weight="1"
+                android:backgroundTint="#6498ed"
+                android:text="Button 1" />
 
-            <EditText
-                android:id="@+id/Password"
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Password"
-                android:inputType="textPassword"
-                android:textSize="25sp" />
+                android:layout_weight="1"
+                android:backgroundTint="#2b45ba"
+                android:text="Button 2" />
 
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#a610c4"
+                android:text="Button 3" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#34c410"
+                android:text="Button 4" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#eaed13"
+                android:text="Button 5" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#e03d19"
+                android:text="Button 6" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#fcba47"
+                android:text="Button 7" />
         </LinearLayout>
-    </ScrollView>
+    </HorizontalScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
