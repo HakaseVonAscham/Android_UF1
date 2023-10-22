@@ -24,76 +24,73 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.038" />
 
-    <HorizontalScrollView
-        android:layout_width="306dp"
-        android:layout_height="70dp"
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="144dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:scrollbars="none">
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/button18"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#6498ed"
-                android:text="Button 1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button19"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#2b45ba"
-                android:text="Button 2" />
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button20"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#a610c4"
-                android:text="Button 3" />
-
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#34c410"
-                android:text="Button 4" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#eaed13"
-                android:text="Button 5" />
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#e03d19"
-                android:text="Button 6" />
-
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#fcba47"
-                android:text="Button 7" />
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
         </LinearLayout>
-    </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
